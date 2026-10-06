@@ -13,13 +13,13 @@ In scope:
 - Playwright auto-waits on actionability; web-first assertions retry.
 - Contrasting a plain walkthrough with a real test: JUnit 5 with PlaywrightAssertions.assertThat.
 - Common pitfalls specific to Playwright for Java + Java.
-- Official documentation links.
+- Official documentation links, and a link to the sibling [demo-playwright-java](https://github.com/testingexamples/demo-playwright-java) repo.
 
 Out of scope:
 
 - Other language bindings of Playwright for Java.
 - General Java language teaching unrelated to Playwright for Java.
-- A runnable project — this repo is teaching material, not a demo. No `demo-*-playwright-java-skill` sibling repo exists yet, so SKILL.md must not link to one.
+- A runnable project — this repo is teaching material, not a demo. The runnable walkthrough is the sibling repo [demo-playwright-java](https://github.com/testingexamples/demo-playwright-java).
 - Automating Google Search or Google Maps for real, repeated use; the Terms-of-Service caveat is stated in SKILL.md.
 
 ## Principles and rules

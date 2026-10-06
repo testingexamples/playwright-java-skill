@@ -172,6 +172,7 @@ Siblings of `hasText`: `isVisible()`, `hasValue(...)`, `hasCount(...)`, `hasAttr
 
 ## Learn more
 
+- https://github.com/testingexamples/demo-playwright-java — the runnable locator-strategy walkthrough this skill's examples are drawn from, run against https://testingexamples.github.io.
 - https://playwright.dev/java/docs/intro — official Playwright for Java documentation.
 - https://playwright.dev/java/docs/test-assertions — assertions reference.
 - https://playwright.dev/java/docs/multithreading — thread-safety guidance.
