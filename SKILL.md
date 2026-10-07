@@ -53,7 +53,7 @@ Before `click`, `fill`, `check`, etc., Playwright automatically waits for the el
 
 ## Full worked example
 
-A walkthrough against the free fixture page https://testingexamples.github.io:
+A walkthrough against the free fixture page https://testingexamples.github.io/en-001/practice/:
 
 ```java
 import com.microsoft.playwright.Browser;
@@ -72,7 +72,7 @@ public class Demo {
             BrowserContext context = browser.newContext();
             Page page = context.newPage();
 
-            page.navigate("https://testingexamples.github.io");
+            page.navigate("https://testingexamples.github.io/en-001/practice/");
 
             // Locate by id, name, class, link text, and XPath.
             System.out.println(page.locator("#id-example-1").evaluate("el => el.outerHTML"));
@@ -137,7 +137,7 @@ class FixtureTest {
     @BeforeEach
     void createPage() {
         page = browser.newContext().newPage();
-        page.navigate("https://testingexamples.github.io");
+        page.navigate("https://testingexamples.github.io/en-001/practice/");
     }
 
     @AfterEach
@@ -172,11 +172,11 @@ Siblings of `hasText`: `isVisible()`, `hasValue(...)`, `hasCount(...)`, `hasAttr
 
 ## Learn more
 
-- https://github.com/testingexamples/demo-playwright-java — the runnable locator-strategy walkthrough this skill's examples are drawn from, run against https://testingexamples.github.io.
+- https://github.com/testingexamples/demo-playwright-java — the runnable locator-strategy walkthrough this skill's examples are drawn from, run against https://testingexamples.github.io/en-001/practice/.
 - https://playwright.dev/java/docs/intro — official Playwright for Java documentation.
 - https://playwright.dev/java/docs/test-assertions — assertions reference.
 - https://playwright.dev/java/docs/multithreading — thread-safety guidance.
-- https://testingexamples.github.io/ — the free, stable fixture page used above; safe to run repeatedly.
+- https://testingexamples.github.io/en-001/practice/ — the free, stable fixture page used above; safe to run repeatedly.
 - Google Search and Google Maps restrict automated querying in their Terms of Service; do not point repeated automation at them.
 
 ---
